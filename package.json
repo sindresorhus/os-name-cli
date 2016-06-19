@@ -1,0 +1,52 @@
+{
+  "name": "os-name-cli",
+  "version": "0.0.0",
+  "description": "Get the name of the current operating system",
+  "license": "MIT",
+  "repository": "sindresorhus/os-name-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "os-name": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "os",
+    "operating",
+    "system",
+    "platform",
+    "name",
+    "title",
+    "release",
+    "version",
+    "macos",
+    "osx",
+    "windows",
+    "linux"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "os-name": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
