@@ -1,4 +1,4 @@
-# os-name-cli [![Build Status](https://travis-ci.org/sindresorhus/os-name-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/os-name-cli)
+# os-name-cli
 
 > Get the name of the current operating system
 
