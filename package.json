@@ -1,52 +1,49 @@
 {
-  "name": "os-name-cli",
-  "version": "1.0.0",
-  "description": "Get the name of the current operating system",
-  "license": "MIT",
-  "repository": "sindresorhus/os-name-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "os-name": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "os",
-    "operating",
-    "system",
-    "platform",
-    "name",
-    "title",
-    "release",
-    "version",
-    "macos",
-    "osx",
-    "windows",
-    "linux"
-  ],
-  "dependencies": {
-    "meow": "^3.7.0",
-    "os-name": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "os-name-cli",
+	"version": "1.0.0",
+	"description": "Get the name of the current operating system",
+	"license": "MIT",
+	"repository": "sindresorhus/os-name-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"bin": {
+		"os-name": "cli.js"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"os",
+		"operating",
+		"system",
+		"platform",
+		"name",
+		"title",
+		"release",
+		"version",
+		"macos",
+		"windows",
+		"linux"
+	],
+	"dependencies": {
+		"meow": "^9.0.0",
+		"os-name": "^4.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.0.0",
+		"xo": "^0.37.1"
+	}
 }

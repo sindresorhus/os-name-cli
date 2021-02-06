@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const osName = require('os-name');
+import meow from 'meow';
+import osName from 'os-name';
 
 meow(`
 	Example
