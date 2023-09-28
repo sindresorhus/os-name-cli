@@ -6,6 +6,8 @@ meow(`
 	Example
 	  $ os-name
 	  macOS Sierra
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log(osName());

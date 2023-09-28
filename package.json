@@ -4,6 +4,7 @@
 	"description": "Get the name of the current operating system",
 	"license": "MIT",
 	"repository": "sindresorhus/os-name-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -14,7 +15,7 @@
 		"os-name": "cli.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -38,12 +39,12 @@
 		"linux"
 	],
 	"dependencies": {
-		"meow": "^9.0.0",
-		"os-name": "^4.0.0"
+		"meow": "^12.1.1",
+		"os-name": "^5.1.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.0.0",
-		"xo": "^0.37.1"
+		"ava": "^5.3.1",
+		"execa": "^8.0.1",
+		"xo": "^0.56.0"
 	}
 }
