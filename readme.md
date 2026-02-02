@@ -20,4 +20,4 @@ $ os-name --help
 
 ## Related
 
-- [os-name](https://github.com/sindresorhus/os-name) - API for this module
+- [os-name](https://github.com/sindresorhus/os-name) - API for this package

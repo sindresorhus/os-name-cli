@@ -12,10 +12,10 @@
 	},
 	"type": "module",
 	"bin": {
-		"os-name": "cli.js"
+		"os-name": "./cli.js"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -39,12 +39,12 @@
 		"linux"
 	],
 	"dependencies": {
-		"meow": "^12.1.1",
-		"os-name": "^5.1.0"
+		"meow": "^14.0.0",
+		"os-name": "^7.0.0"
 	},
 	"devDependencies": {
-		"ava": "^5.3.1",
-		"execa": "^8.0.1",
-		"xo": "^0.56.0"
+		"ava": "^6.4.1",
+		"execa": "^9.6.1",
+		"xo": "^1.2.3"
 	}
 }
